@@ -90,6 +90,19 @@ function LoginForm() {
     setLoading(true);
     setError("");
     try {
+      // Check if user exists first
+      const checkRes = await fetch("/api/auth/check-user", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email }),
+      });
+      const checkData = await checkRes.json();
+      if (!checkData.exists) {
+        setError("No account found with this email. Please register first.");
+        setLoading(false);
+        return;
+      }
+
       const res = await fetch("/api/auth/send-otp", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
