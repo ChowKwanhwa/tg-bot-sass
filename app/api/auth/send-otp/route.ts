@@ -2,7 +2,9 @@ import { NextRequest, NextResponse } from "next/server";
 import { Resend } from "resend";
 import { prisma } from "@/lib/db";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+function getResend() {
+  return new Resend(process.env.RESEND_API_KEY);
+}
 
 function generateOtp(): string {
   return Math.floor(100000 + Math.random() * 900000).toString();
@@ -44,7 +46,7 @@ export async function POST(req: NextRequest) {
       console.log(`=========================\n`);
     }
 
-    const { data, error } = await resend.emails.send({
+    const { data, error } = await getResend().emails.send({
       from: process.env.OTP_FROM_EMAIL || "TG-SaaS <noreply@example.com>",
       to: normalizedEmail,
       subject: "Your TG-SaaS Login Code",
