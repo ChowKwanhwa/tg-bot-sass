@@ -18,26 +18,26 @@ async function credentialsSignIn(
   const params = new URLSearchParams({
     ...credentials,
     csrfToken: csrfToken || "",
-    json: "true",
   });
 
   const res = await fetch(`/api/auth/callback/${provider}`, {
     method: "POST",
     headers: { "Content-Type": "application/x-www-form-urlencoded" },
     body: params.toString(),
-    redirect: "follow",
+    redirect: "manual",
   });
 
-  if (res.ok) {
-    return { ok: true };
-  }
+  // NextAuth callback always returns 302
+  // Success: redirects to "/" or callbackUrl (no "error" in URL)
+  // Failure: redirects to "/login?error=CredentialsSignin"
+  const location = res.headers.get("location") || "";
 
-  // Check if redirected to error page
-  if (res.url?.includes("error")) {
+  if (location.includes("error")) {
     return { ok: false, error: "CredentialsSignin" };
   }
 
-  return { ok: false, error: "Unknown error" };
+  // 302 with no error = success, session cookie is set
+  return { ok: true };
 }
 
 export default function LoginPage() {

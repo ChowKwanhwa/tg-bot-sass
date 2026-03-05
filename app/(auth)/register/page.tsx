@@ -16,15 +16,15 @@ async function credentialsSignIn(
   const params = new URLSearchParams({
     ...credentials,
     csrfToken: csrfToken || "",
-    json: "true",
   });
   const res = await fetch(`/api/auth/callback/${provider}`, {
     method: "POST",
     headers: { "Content-Type": "application/x-www-form-urlencoded" },
     body: params.toString(),
-    redirect: "follow",
+    redirect: "manual",
   });
-  return { ok: res.ok };
+  const location = res.headers.get("location") || "";
+  return { ok: !location.includes("error") };
 }
 
 export default function RegisterPage() {
