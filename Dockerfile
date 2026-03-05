@@ -42,4 +42,4 @@ EXPOSE 3000
 ENV PORT=3000
 ENV HOSTNAME="0.0.0.0"
 
-CMD npx prisma migrate deploy && npx tsx prisma/seed.ts && npx tsx server.ts
+CMD npx prisma db push --skip-generate && npx tsx prisma/seed.ts && npx tsx server.ts
