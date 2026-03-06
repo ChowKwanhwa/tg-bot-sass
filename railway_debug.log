@@ -1,0 +1,500 @@
+Prisma schema loaded from prisma/schema.prisma
+Datasource "db": PostgreSQL database "railway", schema "public" at "postgres.railway.internal:5432"
+
+The database is already in sync with the Prisma schema.
+
+npm notice
+Admin user seeded: fchow@gmail.com
+ ⚠ "next start" does not work with "output: standalone" configuration. Use "node .next/standalone/server.js" instead.
+> Ready on http://0.0.0.0:3000
+[admin-auth] success: fchow@gmail.com
+[password-auth] user disabled: levijczhou@gmail.com
+[31m[auth][error][0m CredentialsSignin: Read more at https://errors.authjs.dev#credentialssignin
+    at fk (/app/.next/server/chunks/448.js:404:41006)
+    at async ft (/app/.next/server/chunks/448.js:404:50431)
+    at async fv (/app/.next/server/chunks/448.js:404:54683)
+    at async rH.do (/app/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:5:21048)
+    at async rH.handle (/app/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:5:25866)
+    at async k (/app/.next/server/app/api/auth/[...nextauth]/route.js:1:3705)
+    at async rH.handleResponse (/app/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:1:110614)
+    at async g (/app/.next/server/app/api/auth/[...nextauth]/route.js:1:4708)
+    at async B (/app/.next/server/app/api/auth/[...nextauth]/route.js:1:5830)
+    at async NextNodeServer.renderToResponseWithComponentsImpl (/app/node_modules/next/dist/server/base-server.js:1422:9)
+[password-auth] success: chowkwunhwa@gmail.com
+Socket connected: tmhF5Ei-Q8QU3bxGAAAB (user: cmmd5l7v50003qr3wbnz1998n)
+[33m[2026-03-06T05:17:33.147] [INFO] - [Running gramJS version 2.26.21][0m
+[33m[2026-03-06T05:17:33.149] [INFO] - [Connecting to 149.154.167.91:80/TCPFull...][0m
+[33m[2026-03-06T05:17:34.733] [INFO] - [Connection to 149.154.167.91:80/TCPFull complete!][0m
+[33m[2026-03-06T05:17:34.734] [INFO] - [Using LAYER 198 for initial connect][0m
+[33m[2026-03-06T05:17:39.585] [INFO] - [Phone migrated to 1][0m
+[33m[2026-03-06T05:17:39.771] [INFO] - [Reconnecting to new data center 1][0m
+[35m[2026-03-06T05:17:39.948] [WARN] - [Disconnecting...][0m
+[33m[2026-03-06T05:17:39.949] [INFO] - [Disconnecting from 149.154.167.91:80/TCPFull...][0m
+[33m[2026-03-06T05:17:39.950] [INFO] - [Connecting to 149.154.175.52:80/TCPFull...][0m
+[33m[2026-03-06T05:17:39.950] [INFO] - [connection closed][0m
+[33m[2026-03-06T05:17:41.510] [INFO] - [Connection to 149.154.175.52:80/TCPFull complete!][0m
+[33m[2026-03-06T05:17:41.511] [INFO] - [Using LAYER 198 for initial connect][0m
+[33m[2026-03-06T05:18:21.490] [INFO] - [Signed in successfully as emory cohen][0m
+[35m[2026-03-06T05:18:21.576] [WARN] - [Disconnecting...][0m
+[33m[2026-03-06T05:18:21.576] [INFO] - [Disconnecting from 149.154.175.52:80/TCPFull...][0m
+[33m[2026-03-06T05:18:21.578] [INFO] - [connection closed][0m
+Socket disconnected: tmhF5Ei-Q8QU3bxGAAAB
+Socket connected: 5CEwksXCa5nU5iZOAAAD (user: cmmd5l7v50003qr3wbnz1998n)
+[33m[2026-03-06T05:18:27.590] [INFO] - [Running gramJS version 2.26.21][0m
+[33m[2026-03-06T05:18:27.590] [INFO] - [Connecting to 149.154.167.91:80/TCPFull...][0m
+[33m[2026-03-06T05:18:29.257] [INFO] - [Connection to 149.154.167.91:80/TCPFull complete!][0m
+[33m[2026-03-06T05:18:29.257] [INFO] - [Using LAYER 198 for initial connect][0m
+[Error: TIMEOUT]
+[33m[2026-03-06T05:18:34.291] [INFO] - [Phone migrated to 1][0m
+[33m[2026-03-06T05:18:34.440] [INFO] - [Reconnecting to new data center 1][0m
+[35m[2026-03-06T05:18:34.591] [WARN] - [Disconnecting...][0m
+[33m[2026-03-06T05:18:34.591] [INFO] - [Disconnecting from 149.154.167.91:80/TCPFull...][0m
+[33m[2026-03-06T05:18:34.593] [INFO] - [Connecting to 149.154.175.52:80/TCPFull...][0m
+[33m[2026-03-06T05:18:34.593] [INFO] - [connection closed][0m
+[33m[2026-03-06T05:18:36.041] [INFO] - [Connection to 149.154.175.52:80/TCPFull complete!][0m
+[33m[2026-03-06T05:18:36.041] [INFO] - [Using LAYER 198 for initial connect][0m
+[33m[2026-03-06T05:18:54.246] [INFO] - [Signed in successfully as jason clanton][0m
+[35m[2026-03-06T05:18:54.321] [WARN] - [Disconnecting...][0m
+[33m[2026-03-06T05:18:54.321] [INFO] - [Disconnecting from 149.154.175.52:80/TCPFull...][0m
+[33m[2026-03-06T05:18:54.322] [INFO] - [connection closed][0m
+Socket disconnected: 5CEwksXCa5nU5iZOAAAD
+[33m[2026-03-06T05:18:59.625] [INFO] - [Running gramJS version 2.26.21][0m
+[33m[2026-03-06T05:18:59.626] [INFO] - [Connecting to 149.154.175.52:80/TCPFull...][0m
+[33m[2026-03-06T05:18:59.697] [INFO] - [Connection to 149.154.175.52:80/TCPFull complete!][0m
+[33m[2026-03-06T05:18:59.697] [INFO] - [Using LAYER 198 for initial connect][0m
+[Error: TIMEOUT]
+[33m[2026-03-06T05:18:59.976] [INFO] - [connection closed][0m
+[35m[2026-03-06T05:18:59.975] [WARN] - [Disconnecting...][0m
+[33m[2026-03-06T05:18:59.975] [INFO] - [Disconnecting from 149.154.175.52:80/TCPFull...][0m
+[33m[2026-03-06T05:19:00.976] [INFO] - [Running gramJS version 2.26.21][0m
+[33m[2026-03-06T05:19:00.977] [INFO] - [Connecting to 149.154.175.52:80/TCPFull...][0m
+[33m[2026-03-06T05:19:01.047] [INFO] - [Connection to 149.154.175.52:80/TCPFull complete!][0m
+[33m[2026-03-06T05:19:01.048] [INFO] - [Using LAYER 198 for initial connect][0m
+[35m[2026-03-06T05:19:01.289] [WARN] - [Disconnecting...][0m
+[33m[2026-03-06T05:19:01.289] [INFO] - [Disconnecting from 149.154.175.52:80/TCPFull...][0m
+[33m[2026-03-06T05:19:01.290] [INFO] - [connection closed][0m
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: Failed to find Server Action. This request might be from an older or newer deployment.
+Read more: https://nextjs.org/docs/messages/failed-to-find-server-action]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: Failed to find Server Action. This request might be from an older or newer deployment.
+Read more: https://nextjs.org/docs/messages/failed-to-find-server-action]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: Failed to find Server Action. This request might be from an older or newer deployment.
+Read more: https://nextjs.org/docs/messages/failed-to-find-server-action]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+Socket connected: Idz-3aAAz40HwuzLAAAF (user: cmmd5l7v50003qr3wbnz1998n)
+[33m[2026-03-06T05:25:43.298] [INFO] - [Running gramJS version 2.26.21][0m
+[33m[2026-03-06T05:25:43.299] [INFO] - [Connecting to 149.154.175.52:80/TCPFull...][0m
+[33m[2026-03-06T05:25:43.370] [INFO] - [Connection to 149.154.175.52:80/TCPFull complete!][0m
+[33m[2026-03-06T05:25:43.370] [INFO] - [Using LAYER 198 for initial connect][0m
+[Error: TIMEOUT]
+[33m[2026-03-06T05:25:43.826] [INFO] - [Starting direct file download in chunks of 131072 at 0, stride 131072][0m
+[33m[2026-03-06T05:25:43.905] [INFO] - [Connecting to 149.154.175.54:443/TCPFull...][0m
+[33m[2026-03-06T05:25:43.972] [INFO] - [Connection to 149.154.175.54:443/TCPFull complete!][0m
+[33m[2026-03-06T05:25:44.117] [INFO] - [File lives in another DC][0m
+[33m[2026-03-06T05:25:44.117] [INFO] - [Connecting to 91.108.56.157:443/TCPFull...][0m
+[33m[2026-03-06T05:25:46.129] [INFO] - [Connection to 91.108.56.157:443/TCPFull complete!][0m
+[33m[2026-03-06T05:25:46.129] [INFO] - [Exporting authorization for data center 91.108.56.157 with layer 198][0m
+[33m[2026-03-06T05:25:48.254] [INFO] - [Starting direct file download in chunks of 131072 at 0, stride 131072][0m
+[33m[2026-03-06T05:25:49.583] [INFO] - [Starting direct file download in chunks of 131072 at 0, stride 131072][0m
+[33m[2026-03-06T05:25:49.660] [INFO] - [File lives in another DC][0m
+[33m[2026-03-06T05:25:51.197] [INFO] - [Starting direct file download in chunks of 131072 at 0, stride 131072][0m
+[33m[2026-03-06T05:25:51.273] [INFO] - [File lives in another DC][0m
+[33m[2026-03-06T05:25:52.549] [INFO] - [Starting direct file download in chunks of 131072 at 0, stride 131072][0m
+[33m[2026-03-06T05:25:53.340] [INFO] - [Starting direct file download in chunks of 131072 at 0, stride 131072][0m
+[33m[2026-03-06T05:25:53.414] [INFO] - [File lives in another DC][0m
+[33m[2026-03-06T05:25:54.782] [INFO] - [Starting direct file download in chunks of 131072 at 0, stride 131072][0m
+[33m[2026-03-06T05:25:55.642] [INFO] - [Starting direct file download in chunks of 131072 at 0, stride 131072][0m
+[33m[2026-03-06T05:25:56.472] [INFO] - [Starting direct file download in chunks of 131072 at 0, stride 131072][0m
+[33m[2026-03-06T05:25:56.472] [INFO] - [Connecting to 149.154.167.92:443/TCPFull...][0m
+[33m[2026-03-06T05:25:58.018] [INFO] - [Connection to 149.154.167.92:443/TCPFull complete!][0m
+[33m[2026-03-06T05:25:58.018] [INFO] - [Exporting authorization for data center 149.154.167.92 with layer 198][0m
+[33m[2026-03-06T05:25:59.579] [INFO] - [Starting direct file download in chunks of 131072 at 0, stride 131072][0m
+[33m[2026-03-06T05:26:00.842] [INFO] - [Starting direct file download in chunks of 131072 at 0, stride 131072][0m
+[33m[2026-03-06T05:26:01.886] [INFO] - [Starting direct file download in chunks of 131072 at 0, stride 131072][0m
+[33m[2026-03-06T05:26:02.947] [INFO] - [Starting direct file download in chunks of 131072 at 0, stride 131072][0m
+[33m[2026-03-06T05:26:05.246] [INFO] - [Starting direct file download in chunks of 131072 at 0, stride 131072][0m
+[33m[2026-03-06T05:26:06.844] [INFO] - [Starting direct file download in chunks of 131072 at 0, stride 131072][0m
+[33m[2026-03-06T05:26:07.932] [INFO] - [Starting direct file download in chunks of 131072 at 0, stride 131072][0m
+[33m[2026-03-06T05:26:08.021] [INFO] - [File lives in another DC][0m
+[33m[2026-03-06T05:26:08.772] [INFO] - [Starting direct file download in chunks of 131072 at 0, stride 131072][0m
+[33m[2026-03-06T05:26:10.103] [INFO] - [Starting direct file download in chunks of 131072 at 0, stride 131072][0m
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[33m[2026-03-06T05:26:11.156] [INFO] - [Starting direct file download in chunks of 131072 at 0, stride 131072][0m
+[33m[2026-03-06T05:26:12.201] [INFO] - [Starting direct file download in chunks of 131072 at 0, stride 131072][0m
+[33m[2026-03-06T05:26:12.279] [INFO] - [File lives in another DC][0m
+[Error: TIMEOUT]
+[33m[2026-03-06T05:26:13.343] [INFO] - [Starting direct file download in chunks of 131072 at 0, stride 131072][0m
+[33m[2026-03-06T05:26:14.354] [INFO] - [Starting direct file download in chunks of 131072 at 0, stride 131072][0m
+[33m[2026-03-06T05:26:15.152] [INFO] - [Starting direct file download in chunks of 131072 at 0, stride 131072][0m
+[33m[2026-03-06T05:26:15.229] [INFO] - [File lives in another DC][0m
+[33m[2026-03-06T05:26:16.798] [INFO] - [Starting direct file download in chunks of 131072 at 0, stride 131072][0m
+[33m[2026-03-06T05:26:17.864] [INFO] - [Starting direct file download in chunks of 131072 at 0, stride 131072][0m
+[33m[2026-03-06T05:26:18.911] [INFO] - [Starting direct file download in chunks of 131072 at 0, stride 131072][0m
+[33m[2026-03-06T05:26:21.203] [INFO] - [Starting direct file download in chunks of 131072 at 0, stride 131072][0m
+[33m[2026-03-06T05:26:22.010] [INFO] - [Starting direct file download in chunks of 131072 at 0, stride 131072][0m
+[33m[2026-03-06T05:26:22.814] [INFO] - [Starting direct file download in chunks of 131072 at 0, stride 131072][0m
+[Error: TIMEOUT]
+[33m[2026-03-06T05:26:24.093] [INFO] - [Starting direct file download in chunks of 131072 at 0, stride 131072][0m
+[33m[2026-03-06T05:26:25.112] [INFO] - [Starting direct file download in chunks of 131072 at 0, stride 131072][0m
+[35m[2026-03-06T05:26:27.192] [WARN] - [Disconnecting...][0m
+[33m[2026-03-06T05:26:27.192] [INFO] - [Disconnecting from 149.154.175.52:80/TCPFull...][0m
+[33m[2026-03-06T05:26:27.193] [INFO] - [connection closed][0m
+[Error: TIMEOUT]
+[35m[2026-03-06T05:26:45.155] [WARN] - [Disconnecting...][0m
+[33m[2026-03-06T05:26:45.155] [INFO] - [Disconnecting from 149.154.175.54:443/TCPFull...][0m
+[33m[2026-03-06T05:26:45.155] [INFO] - [connection closed][0m
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[33m[2026-03-06T05:26:52.012] [INFO] - [connection closed][0m
+[35m[2026-03-06T05:26:52.011] [WARN] - [Disconnecting...][0m
+[33m[2026-03-06T05:26:52.011] [INFO] - [Disconnecting from 149.154.167.92:443/TCPFull...][0m
+[35m[2026-03-06T05:26:55.115] [WARN] - [Disconnecting...][0m
+[33m[2026-03-06T05:26:55.115] [INFO] - [Disconnecting from 91.108.56.157:443/TCPFull...][0m
+[33m[2026-03-06T05:26:55.115] [INFO] - [connection closed][0m
+[Error: TIMEOUT]
+Socket disconnected: Idz-3aAAz40HwuzLAAAF
+[Error: TIMEOUT]
+Socket connected: wWbrUd5ZStrmK0Q0AAAH (user: cmmd5l7v50003qr3wbnz1998n)
+[33m[2026-03-06T05:27:25.668] [INFO] - [Running gramJS version 2.26.21][0m
+[33m[2026-03-06T05:27:25.668] [INFO] - [Connecting to 149.154.175.52:80/TCPFull...][0m
+[33m[2026-03-06T05:27:25.738] [INFO] - [Connection to 149.154.175.52:80/TCPFull complete!][0m
+[33m[2026-03-06T05:27:25.739] [INFO] - [Using LAYER 198 for initial connect][0m
+[33m[2026-03-06T05:27:26.973] [INFO] - [Running gramJS version 2.26.21][0m
+[33m[2026-03-06T05:27:26.974] [INFO] - [Connecting to 149.154.175.52:80/TCPFull...][0m
+[33m[2026-03-06T05:27:27.044] [INFO] - [Connection to 149.154.175.52:80/TCPFull complete!][0m
+[33m[2026-03-06T05:27:27.044] [INFO] - [Using LAYER 198 for initial connect][0m
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[33m[2026-03-06T05:29:24.253] [INFO] - [Connecting to 149.154.175.54:443/TCPFull...][0m
+[33m[2026-03-06T05:29:24.324] [INFO] - [Connection to 149.154.175.54:443/TCPFull complete!][0m
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[35m[2026-03-06T05:29:54.324] [WARN] - [Disconnecting...][0m
+[33m[2026-03-06T05:29:54.325] [INFO] - [Disconnecting from 149.154.175.54:443/TCPFull...][0m
+[33m[2026-03-06T05:29:54.325] [INFO] - [connection closed][0m
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[33m[2026-03-06T05:34:14.202] [INFO] - [Connecting to 149.154.175.54:443/TCPFull...][0m
+[33m[2026-03-06T05:34:14.270] [INFO] - [Connection to 149.154.175.54:443/TCPFull complete!][0m
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[35m[2026-03-06T05:34:44.270] [WARN] - [Disconnecting...][0m
+[33m[2026-03-06T05:34:44.270] [INFO] - [Disconnecting from 149.154.175.54:443/TCPFull...][0m
+[33m[2026-03-06T05:34:44.271] [INFO] - [connection closed][0m
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[33m[2026-03-06T05:37:21.746] [INFO] - [Connecting to 149.154.175.54:443/TCPFull...][0m
+[33m[2026-03-06T05:37:21.812] [INFO] - [Connection to 149.154.175.54:443/TCPFull complete!][0m
+[33m[2026-03-06T05:37:26.657] [INFO] - [Connecting to 149.154.175.54:443/TCPFull...][0m
+[33m[2026-03-06T05:37:26.725] [INFO] - [Connection to 149.154.175.54:443/TCPFull complete!][0m
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[35m[2026-03-06T05:37:52.093] [WARN] - [Disconnecting...][0m
+[33m[2026-03-06T05:37:52.093] [INFO] - [Disconnecting from 149.154.175.54:443/TCPFull...][0m
+[33m[2026-03-06T05:37:52.093] [INFO] - [connection closed][0m
+[35m[2026-03-06T05:37:56.726] [WARN] - [Disconnecting...][0m
+[33m[2026-03-06T05:37:56.726] [INFO] - [Disconnecting from 149.154.175.54:443/TCPFull...][0m
+[33m[2026-03-06T05:37:56.727] [INFO] - [connection closed][0m
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[33m[2026-03-06T05:38:47.229] [INFO] - [Connecting to 149.154.175.54:443/TCPFull...][0m
+[33m[2026-03-06T05:38:47.297] [INFO] - [Connection to 149.154.175.54:443/TCPFull complete!][0m
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[35m[2026-03-06T05:39:17.298] [WARN] - [Disconnecting...][0m
+[33m[2026-03-06T05:39:17.298] [INFO] - [Disconnecting from 149.154.175.54:443/TCPFull...][0m
+[33m[2026-03-06T05:39:17.299] [INFO] - [connection closed][0m
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[33m[2026-03-06T05:40:33.018] [INFO] - [Connecting to 149.154.175.54:443/TCPFull...][0m
+[33m[2026-03-06T05:40:33.085] [INFO] - [Connection to 149.154.175.54:443/TCPFull complete!][0m
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[35m[2026-03-06T05:41:03.086] [WARN] - [Disconnecting...][0m
+[33m[2026-03-06T05:41:03.086] [INFO] - [Disconnecting from 149.154.175.54:443/TCPFull...][0m
+[33m[2026-03-06T05:41:03.087] [INFO] - [connection closed][0m
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[33m[2026-03-06T05:43:39.084] [INFO] - [Connecting to 149.154.175.54:443/TCPFull...][0m
+[33m[2026-03-06T05:43:39.162] [INFO] - [Connection to 149.154.175.54:443/TCPFull complete!][0m
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[35m[2026-03-06T05:44:09.162] [WARN] - [Disconnecting...][0m
+[33m[2026-03-06T05:44:09.163] [INFO] - [Disconnecting from 149.154.175.54:443/TCPFull...][0m
+[33m[2026-03-06T05:44:09.163] [INFO] - [connection closed][0m
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[33m[2026-03-06T05:45:16.487] [INFO] - [Connecting to 149.154.175.54:443/TCPFull...][0m
+[33m[2026-03-06T05:45:16.557] [INFO] - [Connection to 149.154.175.54:443/TCPFull complete!][0m
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[35m[2026-03-06T05:45:46.558] [WARN] - [Disconnecting...][0m
+[33m[2026-03-06T05:45:46.558] [INFO] - [Disconnecting from 149.154.175.54:443/TCPFull...][0m
+[33m[2026-03-06T05:45:46.558] [INFO] - [connection closed][0m
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[33m[2026-03-06T05:45:55.751] [INFO] - [Connecting to 149.154.175.54:443/TCPFull...][0m
+[33m[2026-03-06T05:45:55.828] [INFO] - [Connection to 149.154.175.54:443/TCPFull complete!][0m
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[33m[2026-03-06T05:46:25.829] [INFO] - [Disconnecting from 149.154.175.54:443/TCPFull...][0m
+[33m[2026-03-06T05:46:25.830] [INFO] - [connection closed][0m
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[35m[2026-03-06T05:46:25.829] [WARN] - [Disconnecting...][0m
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[33m[2026-03-06T05:50:01.283] [INFO] - [Connecting to 149.154.175.54:443/TCPFull...][0m
+[33m[2026-03-06T05:50:01.349] [INFO] - [Connection to 149.154.175.54:443/TCPFull complete!][0m
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[35m[2026-03-06T05:50:31.629] [WARN] - [Disconnecting...][0m
+[33m[2026-03-06T05:50:31.629] [INFO] - [Disconnecting from 149.154.175.54:443/TCPFull...][0m
+[33m[2026-03-06T05:50:31.630] [INFO] - [connection closed][0m
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[33m[2026-03-06T05:51:15.482] [INFO] - [Connecting to 149.154.175.54:443/TCPFull...][0m
+[33m[2026-03-06T05:51:15.550] [INFO] - [Connection to 149.154.175.54:443/TCPFull complete!][0m
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[35m[2026-03-06T05:51:45.836] [WARN] - [Disconnecting...][0m
+[33m[2026-03-06T05:51:45.836] [INFO] - [Disconnecting from 149.154.175.54:443/TCPFull...][0m
+[33m[2026-03-06T05:51:45.836] [INFO] - [connection closed][0m
+[Error: TIMEOUT]
+[33m[2026-03-06T05:51:52.146] [INFO] - [Connecting to 149.154.175.54:443/TCPFull...][0m
+[33m[2026-03-06T05:51:52.217] [INFO] - [Connection to 149.154.175.54:443/TCPFull complete!][0m
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[35m[2026-03-06T05:52:49.501] [WARN] - [Disconnecting...][0m
+[33m[2026-03-06T05:52:49.501] [INFO] - [Disconnecting from 149.154.175.54:443/TCPFull...][0m
+[33m[2026-03-06T05:52:49.502] [INFO] - [connection closed][0m
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[33m[2026-03-06T05:54:16.320] [INFO] - [Connecting to 149.154.175.54:443/TCPFull...][0m
+[33m[2026-03-06T05:54:16.387] [INFO] - [Connection to 149.154.175.54:443/TCPFull complete!][0m
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[35m[2026-03-06T05:54:46.388] [WARN] - [Disconnecting...][0m
+[33m[2026-03-06T05:54:46.388] [INFO] - [Disconnecting from 149.154.175.54:443/TCPFull...][0m
+[33m[2026-03-06T05:54:46.388] [INFO] - [connection closed][0m
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
+[Error: TIMEOUT]
