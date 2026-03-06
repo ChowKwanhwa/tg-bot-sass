@@ -11,5 +11,6 @@ export function createTelegramClient(sessionString = ""): TelegramClient {
 
   return new TelegramClient(new StringSession(sessionString), apiId, apiHash, {
     connectionRetries: 5,
+    useWSS: true,
   });
 }

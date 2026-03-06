@@ -71,10 +71,26 @@ export default function AutoChatPage() {
       setScrapeJobs(completedJobs);
       setChatJobs(cj);
 
+      const runningJob = cj.find((j: ChatJob) => j.status === "RUNNING");
+      if (runningJob) {
+        setRunningJobId(runningJob.id);
+        const socket = io({ path: "/api/socketio" });
+        socketRef.current = socket;
+        socket.on("autochat:log", (log: LogEntry) => {
+          setLogs((prev) => [...prev, log]);
+        });
+      }
+
       // Default: select all active sessions
       const activeSessions = (s as TgSession[]).filter((sess) => sess.isActive);
       setSelectedSessions(activeSessions.map((sess) => sess.id));
     });
+
+    return () => {
+      if (socketRef.current) {
+        socketRef.current.disconnect();
+      }
+    };
   }, []);
 
   useEffect(() => {
@@ -248,11 +264,10 @@ export default function AutoChatPage() {
                   <button
                     key={s.id}
                     onClick={() => toggleSession(s.id)}
-                    className={`px-3 py-1 rounded-md text-sm border transition-colors ${
-                      selectedSessions.includes(s.id)
+                    className={`px-3 py-1 rounded-md text-sm border transition-colors ${selectedSessions.includes(s.id)
                         ? "border-primary bg-primary/10 text-primary"
                         : "border-border text-muted-foreground hover:border-primary/50"
-                    }`}
+                      }`}
                   >
                     {s.label}
                   </button>
