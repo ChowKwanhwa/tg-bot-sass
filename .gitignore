@@ -7,5 +7,5 @@ media/
 *.csv
 .next/
 .vercel
-profile/
+/profile/
 ts脚本备份/

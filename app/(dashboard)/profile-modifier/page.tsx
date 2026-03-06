@@ -53,7 +53,12 @@ export default function ProfileModifierPage() {
     setLoadingProfileId(sessionId);
     try {
       const res = await fetch(`/api/telegram/profile?sessionId=${sessionId}`);
-      if (!res.ok) throw new Error("Failed to load profile");
+      if (!res.ok) {
+        const text = await res.text();
+        let msg = "Failed to load profile";
+        try { msg = JSON.parse(text).error || msg; } catch {}
+        throw new Error(msg);
+      }
       const data = await res.json();
       setEditState({
         sessionId,
@@ -98,8 +103,10 @@ export default function ProfileModifierPage() {
         body: formData,
       });
       if (!res.ok) {
-        const data = await res.json();
-        throw new Error(data.error || "Update failed");
+        const text = await res.text();
+        let msg = "Update failed";
+        try { msg = JSON.parse(text).error || msg; } catch {}
+        throw new Error(msg);
       }
 
       // Update session label in local state
